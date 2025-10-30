@@ -11,5 +11,9 @@ In dockerfile we can  make use of multistage, on first stage we can add heavy im
 ##### Distorless images
 These images are light weight images, which will not contain the libraies, packages, instead only include run-time or sometimes not even that, hence its secure and reduce vuln as its not expose to machine.
 
+##### Docker Volumnes
+###### Bind mounts/Host volumne,
+container and host os are binded, whatever file we have in cotainer, backup will be there on host system, as containers are ephimeral (once down and there wont be data persistence) so bind volume comes in handy
+
 
 
