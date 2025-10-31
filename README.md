@@ -20,4 +20,5 @@ docker run -v /host/path:/container/path my-image
 There are better as volume is created at docker, we can use external storage system like S3, storage etc to keep data. Stored in Docker’s managed storage area (usually under /var/lib/docker/volumes/).  Isolated from the host filesystem.
 
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cd262630-7f16-4a1c-a0f9-485fdf0a8389" />
 
