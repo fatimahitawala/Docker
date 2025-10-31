@@ -14,6 +14,10 @@ These images are light weight images, which will not contain the libraies, packa
 ##### Docker Volumnes
 ###### Bind mounts/Host volumne,
 container and host os are binded, whatever file we have in cotainer, backup will be there on host system, as containers are ephimeral (once down and there wont be data persistence) so bind volume comes in handy
+docker run -v /host/path:/container/path my-image
+
+###### Volumes
+There are better as volume is created at docker, we can use external storage system like S3, storage etc to keep data. Stored in Docker’s managed storage area (usually under /var/lib/docker/volumes/).  Isolated from the host filesystem.
 
 
 
