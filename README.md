@@ -22,3 +22,9 @@ There are better as volume is created at docker, we can use external storage sys
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cd262630-7f16-4a1c-a0f9-485fdf0a8389" />
 
+##### docker commands for volume
+1) docker volume ls
+2) docker volume create volume_name
+3) docker run -itd -v /path/host/volume:/path/container imagename
+4)  docker run -itd --mount type=volume, source=/volume-name, target=/path/container imagename
+
